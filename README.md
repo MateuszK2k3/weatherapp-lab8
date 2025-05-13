@@ -43,12 +43,16 @@ docker logs weatherapp-lab8
 
 ### d. 
 
-aby sprawdzić warstwy obrazu należy użyć polecenia:
+aby sprawdzić warstwy i rozmiar obrazu należy użyć polecenia:
 
 ```bash
 docker image inspect weatherapp-lab8
 ```
+warstwy
 ![docker_inspect](images/layers.png)
+
+rozmiar
+![docker_inspect](images/size.png)
 
 
 # Część obowiązkowa
