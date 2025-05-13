@@ -70,4 +70,5 @@ docker buildx build \
 ```
 Deklaracja znaduje się poniżej i pokazuje, że obraz jest dostępny dla dwóch platform. Zastosowany został builder ze sterownikiem docker-container
 ![architectures](images/milti-platform.png)
+![architectures](images/cache.png)
 
