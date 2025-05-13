@@ -9,6 +9,9 @@ Aplikacja pokazująca pogodę w dowolnym mieście na świecie
 
 ---
 
+# Część obowiązkowa
+
+
 ## Instrukcja użytkowania
 
 ### a.
