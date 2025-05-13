@@ -39,7 +39,7 @@ aby uzyskać logi należy użyć polecenia:
 ```bash
 docker logs weatherapp-lab8
 ```
-![docker_run](images/logs.png)
+![docker_logs](images/logs.png)
 
 ### d. 
 
@@ -48,4 +48,20 @@ aby sprawdzić warstwy obrazu należy użyć polecenia:
 ```bash
 docker image inspect weatherapp-lab8
 ```
-![docker_run](images/layers.png)
+![docker_inspect](images/layers.png)
+
+
+# Część obowiązkowa
+
+### Budowanie obrazu z cache i eksportem do rejestru
+
+```bash
+docker buildx build \
+  --builder mybuilder \
+  --platform linux/amd64,linux/arm64 \
+  --tag mateuszkozz/weatherapp-lab8:v1 \
+  --push .
+```
+Deklaracja znaduje się poniżej i pokazuje, że obraz jest dostępny dla dwóch platform
+![architectures](images/lmulti-platform.png)
+
