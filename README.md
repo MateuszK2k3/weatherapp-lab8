@@ -63,5 +63,5 @@ docker buildx build \
   --push .
 ```
 Deklaracja znaduje się poniżej i pokazuje, że obraz jest dostępny dla dwóch platform
-![architectures](images/multi-platform.png)
+![architectures](images/milti-platform.png)
 
