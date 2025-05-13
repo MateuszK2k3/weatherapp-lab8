@@ -62,6 +62,6 @@ docker buildx build \
   --tag mateuszkozz/weatherapp-lab8:v1 \
   --push .
 ```
-Deklaracja znaduje się poniżej i pokazuje, że obraz jest dostępny dla dwóch platform
+Deklaracja znaduje się poniżej i pokazuje, że obraz jest dostępny dla dwóch platform. Zastosowany został builder ze sterownikiem docker-container
 ![architectures](images/milti-platform.png)
 
